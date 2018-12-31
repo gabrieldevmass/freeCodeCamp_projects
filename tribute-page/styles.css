@@ -36,15 +36,12 @@
                 margin: auto;
             }
             #image {
-                max-width: 75%;
-                height: auto;
+                width: auto;
+                height: 100vh;
                 align-self: center;
                 display: block;
             }
             #img-caption {
-                position: absolute;
-                top: 820px;
-                left: 250px;
                 font-family: 'Montserrat', sans-serif;
                 font-size: 14px;
                 color: #F4F4F4;
