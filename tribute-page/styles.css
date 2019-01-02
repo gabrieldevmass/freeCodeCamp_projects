@@ -17,9 +17,7 @@
             }
              #title-div {
                 margin: auto;
-                height: 200px; 
-                display: flex;
-                flex-direction: column;
+                height: 200px;
             }
             #tribute-info {
                 margin: auto;
@@ -47,17 +45,15 @@
                 color: #F4F4F4;
             }
             #title {
-                align-self: center;
-                position: absolute;
+                text-align: center;
                 font-family: 'Major Mono Display', monospace;
                 font-weight: 900;
                 font-size: 60px;
                 color: #C0B283;
+                padding: 0px;
             }
             #subtitle {
-                align-self: center;
-                position: absolute;
-                margin-top: 120px;
+                text-align: center;
                 font-family: 'Montserrat', sans-serif;
                 color: #373737;
             }
@@ -68,8 +64,8 @@
             #timeline-title{
                 font-family: 'Major Mono Display', monospace;
                 color: #C0B283;
-                grid-template-columns: 1fr;
-                justify-self: center;
+                text-align: center;
+                margin-top: 100px;
             }
             #alan-quote {
                 text-align: center;
@@ -91,7 +87,7 @@
             .timeline-img {
                 width: 220px;
                 height: 150px;
-                box-shadow: 0 0 10px black; 
+                box-shadow: 0 0 10px black;
             }
             .timeline-p {
                 flex-direction: row;
