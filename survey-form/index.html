@@ -1,80 +1,80 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RPG Survey</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  </head>
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <div id="main">
+    <title>RPG Survey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="main">
 
-      <header>
-        <div id="header">
-          <h1 id="title"> Tabletop RPG Survey</h1>
-          <p id="description">Let me know what are your preferences regarding tabletop RPG</p>
-        </div>
-      </header>
-
-      <form action="/inexistent-db" id="survey-form">
-
-        <div id="input-block">
-
-          <div id="name-input">
-            <label for="name" id="name-label">Your name:</label>
-            <input type="text" name="f-name" id="name" placeholder="Enter your name" required>
-          </div>
-
-          <div id="email-input">
-            <label for="email" id="email-label">Your email:</label>
-            <input type="email" name="f-email" id="email" placeholder="email@email.com" required>
-          </div>
-
-          <div id="age-input">
-              <label for="number" id="number-label">Your age:</label>
-              <input type="number" name="f-number" id="number" min="14" max="60" placeholder="Age">
-          </div>
-
-          <div id="dropdown-franchise">
-            <label for="dropdown">Which one of these you like the most:</label>
-            <select name="franchise" id="dropdown">
-              <option value="d&d">Dungeons & Dragons</option>
-              <option value="shadowrun">Shadowrun</option>
-              <option value="callofcthulhu">Call of Cthulhu</option>
-              <option value="vampiremasquerade">Vampire: The Masquerade</option>
-              <option value="starwarsrpg">Star Wars The Roleplaying Game</option>
-              <option value="pathfinder">Pathfinder</option>
-              <option value="gurps">GURPS</option>
-            </select>
-          </div>
-        </div>
-
-        <div id="radio-playerqt">
-          <p>How many players do you consider the ideal for a RPG group:</p>
-          <input type="radio" name="player-qtty" value="2-4">2-4<br>
-          <input type="radio" name="player-qtty" value="5-7">5-7<br>
-          <input type="radio" name="player-qtty" value="8-10">8-10<br>
-          <input type="radio" name="player-qtty" value="10+">10+
-        </div>
-        <div id="checkboxes">
-          <p>Check the things you like to have in a RPG session</p>
-          <input type="checkbox" name="option1" value="food">Food<br>
-          <input type="checkbox" name="option2" value="alcool">Alcoholic drinks<br>
-          <input type="checkbox" name="option3" value="tech">Technology(less pen and paper, more apps, mobile devices etc...)<br>
-          <input type="checkbox" name="option4" value="focus1">Combat focused storyline<br>
-          <input type="checkbox" name="option5" value="focus2">Social interaction focused storyline<br>
-          <input type="checkbox" name="option6" value="time1">Short sessions(2-3 hours)<br>
-          <input type="checkbox" name="option7" value="time2">Medium sessions(3-5 hours)<br>
-          <input type="checkbox" name="option8" value="time3">Long sessions(5-10 hours)
+      <header>
+        <div id="header">
+          <h1 id="title"> Tabletop RPG Survey</h1>
+          <p id="description">Let me know what are your preferences regarding tabletop RPG</p>
         </div>
-
-        <div id="comment">
-          <textarea rows="4" cols="50" name="comment" id="comment-box" form="survey-form" placeholder="Leave a comment:"></textarea>
-          </div>
-            <button id="submit" type="submit">Submit</button>
-      </form>
-    </div>
-  </body>
+      </header>
+
+      <form action="/inexistent-db" id="survey-form">
+
+        <div id="input-block">
+
+          <div id="name-input">
+            <label for="name" id="name-label">Your name:</label>
+            <input type="text" name="f-name" id="name" placeholder="Enter your name" required>
+          </div>
+
+          <div id="email-input">
+            <label for="email" id="email-label">Your email:</label>
+            <input type="email" name="f-email" id="email" placeholder="email@email.com" required>
+          </div>
+
+          <div id="age-input">
+              <label for="number" id="number-label">Your age:</label>
+              <input type="number" name="f-number" id="number" min="14" max="60" placeholder="Age">
+          </div>
+
+          <div id="dropdown-franchise">
+            <label for="dropdown">Which one of these you like the most:</label>
+            <select name="franchise" id="dropdown">
+              <option value="d&d">Dungeons & Dragons</option>
+              <option value="shadowrun">Shadowrun</option>
+              <option value="callofcthulhu">Call of Cthulhu</option>
+              <option value="vampiremasquerade">Vampire: The Masquerade</option>
+              <option value="starwarsrpg">Star Wars The Roleplaying Game</option>
+              <option value="pathfinder">Pathfinder</option>
+              <option value="gurps">GURPS</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="radio-playerqt">
+          <p>How many players do you consider the ideal for a RPG group:</p>
+          <input type="radio" name="player-qtty" value="2-4">2-4<br>
+          <input type="radio" name="player-qtty" value="5-7">5-7<br>
+          <input type="radio" name="player-qtty" value="8-10">8-10<br>
+          <input type="radio" name="player-qtty" value="10+">10+
+        </div>
+        <div id="checkboxes">
+          <p>Check the things you like to have in a RPG session</p>
+          <input type="checkbox" name="option1" value="food">Food<br>
+          <input type="checkbox" name="option2" value="alcool">Alcoholic drinks<br>
+          <input type="checkbox" name="option3" value="tech">Technology(less pen and paper, more apps, mobile devices etc...)<br>
+          <input type="checkbox" name="option4" value="focus1">Combat focused storyline<br>
+          <input type="checkbox" name="option5" value="focus2">Social interaction focused storyline<br>
+          <input type="checkbox" name="option6" value="time1">Short sessions(2-3 hours)<br>
+          <input type="checkbox" name="option7" value="time2">Medium sessions(3-5 hours)<br>
+          <input type="checkbox" name="option8" value="time3">Long sessions(5-10 hours)
+        </div>
+
+        <div id="comment">
+          <textarea rows="4" cols="50" name="comment" id="comment-box" form="survey-form" placeholder="Leave a comment:"></textarea>
+          </div>
+            <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
