@@ -7,6 +7,88 @@
     <title>Coralia Coffeshop</title>
   </head>
   <body>
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      
+    <header id="header">
+      <nav id="nav-bar">
+        <h1>CORALIA</h1>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      
+      <section id="landing">
+        <img src="images/logo.png" id="header-img"/>
+        <p>All you need is love,<br/>and a cup of coffe.</p>
+      </section>
+    </header>
+      
+    <section id="about">
+      <video width="400px" id="video" controls>
+        <source src="videos/espresso.mp4" type="video/mp4"/>
+        Your browser doesn't support HTML5 Video.
+      </video>
+        
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco<br/>
+      </p>
+    </section>
+      
+    <section id="products">
+      <figure class="coffe-seeds">
+          <img src="images/coffe-arabica.jpg" alt="seeds of arabica coffe"/>
+          <figcaption>Arabica Coffe</figcaption>
+          <ul>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+          </ul>
+      </figure>
+        
+      <figure>
+        <img src="images/coffe-robusta.jpg" alt="seeds of robusta coffe"/>
+        <figcaption>Robusta Coffe</figcaption>
+        <ul> 
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+        </ul>
+      </figure>
+      
+      <figure>
+        <img src="images/bengal-coffe.jpg" alt="seeds of bengal coffe"/>
+        <figcaption>Bengal Coffe</figcaption>
+        <ul>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+        </ul>
+      </figure>
+        
+      <figure>
+        <img src="images/congo-kivu-green-coffe.jpg" alt="seeds of congo kivu green coffe"/>
+        <figcaption>Congo Kivu Green Coffe</figcaption>
+        <ul>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+          <li>Lorem Ipsum</li>
+        </ul>
+      </figure>
+    </section>
+      
+    <section id="contact">
+        
+      <form id="form" action="https://www.freecodecamp.org/email-submit">
+        <label>Enter your e-mail to receive especial discounts!<br/><input type="email" name="email" placeholder="your e-mail" id="email" required/></label>
+        <input type="submit" id="submit"/>
+      </form>  
+        
+    </section>
   </body>
 </html>
