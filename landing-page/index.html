@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Coralia Coffeshop</title>
   </head>
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+    <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+      
     <header id="header">
       <nav id="nav-bar">
         <h1>CORALIA</h1>
@@ -16,29 +16,29 @@
         <a href="#products" class="nav-link">Products</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
-
+      
       <section id="landing">
-        <img src="https://devmass.com.br/landing-page/images/logo.png" id="header-img"/>
+        <img src="images/logo-semfundo.png" id="header-img"/>
         <p>All you need is love,<br/>and a cup of coffe.</p>
       </section>
     </header>
-
+      
     <section id="about">
-      <video width="400px" id="video" controls>
+      <video id="video" controls>
         <source src="videos/espresso.mp4" type="video/mp4"/>
         Your browser doesn't support HTML5 Video.
       </video>
-
+        
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
         Ut enim ad minim veniam, quis nostrud exercitation ullamco<br/>
       </p>
     </section>
-
+      
     <section id="products">
       <figure class="coffe-seeds">
-          <img src="images/coffe-arabica.jpg" alt="seeds of arabica coffe"/>
+          <img src="images/coffe-arabica.jpg" alt="seeds of arabica coffe" class="imgs"/>
           <figcaption>Arabica Coffe</figcaption>
           <ul>
             <li>Lorem Ipsum</li>
@@ -47,20 +47,20 @@
             <li>Lorem Ipsum</li>
           </ul>
       </figure>
-
+        
       <figure>
-        <img src="images/coffe-robusta.jpg" alt="seeds of robusta coffe"/>
+        <img src="images/coffe-robusta.jpg" alt="seeds of robusta coffe" class="imgs"/>
         <figcaption>Robusta Coffe</figcaption>
-        <ul>
+        <ul> 
           <li>Lorem Ipsum</li>
           <li>Lorem Ipsum</li>
           <li>Lorem Ipsum</li>
           <li>Lorem Ipsum</li>
         </ul>
       </figure>
-
+      
       <figure>
-        <img src="images/bengal-coffe.jpg" alt="seeds of bengal coffe"/>
+        <img src="images/bengal-coffe.jpg" alt="seeds of bengal coffe" class="imgs"/>
         <figcaption>Bengal Coffe</figcaption>
         <ul>
           <li>Lorem Ipsum</li>
@@ -69,9 +69,9 @@
           <li>Lorem Ipsum</li>
         </ul>
       </figure>
-
+        
       <figure>
-        <img src="images/congo-kivu-green-coffe.jpg" alt="seeds of congo kivu green coffe"/>
+        <img src="images/congo-kivu-green-coffe.jpg" alt="seeds of congo kivu green coffe" class="imgs"/>
         <figcaption>Congo Kivu Green Coffe</figcaption>
         <ul>
           <li>Lorem Ipsum</li>
@@ -81,14 +81,14 @@
         </ul>
       </figure>
     </section>
-
+      
     <section id="contact">
-
+        
       <form id="form" action="https://www.freecodecamp.org/email-submit">
         <label>Enter your e-mail to receive especial discounts!<br/><input type="email" name="email" placeholder="your e-mail" id="email" required/></label>
         <input type="submit" id="submit"/>
-      </form>
-
+      </form>  
+        
     </section>
   </body>
 </html>
