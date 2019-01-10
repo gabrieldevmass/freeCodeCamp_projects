@@ -24,12 +24,15 @@
         font-family: 'ZCOOL KuaiLe', cursive;
         font-size: 1.8rem;
         color: #D5A253;
+        margin-left: 15px;
+        flex-grow: 2;
     }
     .nav-link {
         font-family: Roboto, sans-serif;
         font-size: 1rem;
         color: #F5F5F5;
         text-decoration: none;
+        flex-grow: 1;
     }
     #landing {
         height: 90vh;
