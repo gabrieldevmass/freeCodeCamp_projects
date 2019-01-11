@@ -15,7 +15,11 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        position: fixed;
+        overflow: hidden;
+        z-index: 1;
         height: 10vh;
+        width: 100%;
         margin: 0px;
         padding: 0px;
         background-color: #B85750;  
@@ -35,11 +39,11 @@
         flex-grow: 1;
     }
     #landing {
-        height: 90vh;
+        height: 100vh;
         text-align: center;
     }
     #header-img {
-        margin-top: 100px;
+        margin-top: 150px;
         margin-bottom: 50px;
         margin-left: 60px;
         width: 250px;
@@ -63,6 +67,7 @@
     #video {
         width: 380px;
         margin-top: 55px;
+        z-index: ;
     }
     #about > p {
         margin-top: 65px;
