@@ -46,7 +46,7 @@
       </div>
 
       <figure class="coffe-seeds">
-          <img src="images/coffe-arabica.jpg" alt="seeds of arabica coffe" class="imgs"/>
+          <img src="images/coffe-arabica.jpg" alt="seeds of arabica coffe" class="imgs" id="debug"/>
           <figcaption>Arabica Coffe</figcaption>
           <ul>
             <li>Lorem Ipsum</li>
@@ -54,6 +54,7 @@
             <li>Lorem Ipsum</li>
             <li>Lorem Ipsum</li>
           </ul>
+          <button type="button">Buy</button>
       </figure>
         
       <figure>
@@ -65,6 +66,7 @@
           <li>Lorem Ipsum</li>
           <li>Lorem Ipsum</li>
         </ul>
+        <button type="button">Buy</button>
       </figure>
       
       <figure>
@@ -76,6 +78,7 @@
           <li>Lorem Ipsum</li>
           <li>Lorem Ipsum</li>
         </ul>
+        <button type="button">Buy</button>
       </figure>
         
       <figure>
@@ -87,14 +90,18 @@
           <li>Lorem Ipsum</li>
           <li>Lorem Ipsum</li>
         </ul>
+        <button type="button">Buy</button>
       </figure>
     </section>
       
     <section id="contact">
+      <div class="titleContainer">
+        <h1>Contact</h1>
+      </div>
         
       <form id="form" action="https://www.freecodecamp.org/email-submit">
-        <label>Enter your e-mail to receive especial discounts!<br/><input type="email" name="email" placeholder="your e-mail" id="email" required/></label>
-        <input type="submit" id="submit"/>
+        <label for="submit"><p id="label-paragraph">Enter your e-mail and receive especial discounts!<br/></p><input type="email" name="email" placeholder="your e-mail" id="email" required/></label>
+        <input type="submit" name="submit" id="submit"/>
       </form>  
         
     </section>
