@@ -23,7 +23,7 @@
         width: 100vw;
         margin: 0px;
         padding: 0px;
-        background-color: #B85750;  
+        background-color: #B85750;
     }
     #nav-bar > h1 {
         font-family: 'ZCOOL KuaiLe', cursive;
@@ -134,7 +134,7 @@
         border-radius: 2%;
         border: none;
         padding: 10px;
-    } 
+    }
     #submit {
         border: none;
         border-radius: 5%;
@@ -145,56 +145,59 @@
         color: #D5A253;
     }
     @media screen and (min-width: 768px) {
-        #nav-bar {
-            height: 6vh;
-        }
-        #nav-bar > h1 {
-            margin-left: 70px;
-            flex-grow: 10;
-        }
-        #landing {
-            background-image: url(https://source.unsplash.com/h9Iq22JJlGk/2440x1080);
-        }
-        #header-img {
-            margin-top: 280px;
-            margin-bottom: 100px;
-        }
-        #about {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
-            align-items: center;
-        }
-        #video {
-            width: 600px;
-            margin-right: 50px;
-            margin-left: 50px;
-            margin-top: 0px;
-        }
-        #about > p {
-            text-align: left;
-            margin-right: 80px;
-            margin-left: 80px;
-            margin-top: 0px;
-        }
-        #products {
-            display: flex;
-            justify-content: space-around;
-            flex-flow: row wrap;
-        }
-        #debug {
-            margin-top: 0px;
-        }
-        #products > figure {
-            margin-top: 10px;
-        }
-        #products > figure > ul {
-            list-style: none;
-        }
-        .titleContainer{
-            width: 100%;
-        }
-        #nav-bar {
-            width: 100%;
-        }
+      #nav-bar {
+          height: 6vh;
+      }
+      #nav-bar > h1 {
+          margin-left: 70px;
+          flex-grow: 10;
+      }
+      #landing {
+          background-image: url(https://source.unsplash.com/h9Iq22JJlGk/2440x1080);
+      }
+      #header-img {
+          margin-top: 280px;
+          margin-bottom: 100px;
+      }
+      #about {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-around;
+          align-items: center;
+      }
+      #video {
+          width: 600px;
+          margin-right: 50px;
+          margin-left: 50px;
+          margin-top: 0px;
+      }
+      #about > p {
+          text-align: left;
+          margin-right: 80px;
+          margin-left: 80px;
+          margin-top: 0px;
+      }
+      #products {
+          display: flex;
+          justify-content: space-around;
+          flex-flow: row wrap;
+      }
+      #debug {
+          margin-top: 0px;
+      }
+      #products > figure {
+          margin-top: 10px;
+      }
+      #products > figure > ul {
+          list-style: none;
+      }
+      .titleContainer{
+          width: 100%;
+      }
+      #nav-bar {
+          width: 100%;
+      }
+    }
+    @media screen and (min-width: 1366px) {
+
     }
