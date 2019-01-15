@@ -144,7 +144,36 @@
         background-color: #B85750;
         color: #D5A253;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 680px) {
+        #landing {
+            background-image: url(https://source.unsplash.com/h9Iq22JJlGk/2440x1080);
+        }
+        #header-img {
+            margin-top: 220px;
+            margin-bottom: 0px;
+        }
+        #products {
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+        }
+        #debug {
+            margin-top: 0px;
+        }
+        #products > figure {
+            margin-top: 10px;
+        }
+        #products > figure > ul {
+            list-style: none;
+        }
+        #video {
+            width: 600px;
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+    }
+    @media screen and (min-width: 1445px) {
       #nav-bar {
           height: 6vh;
       }
@@ -197,7 +226,4 @@
       #nav-bar {
           width: 100%;
       }
-    }
-    @media screen and (min-width: 1366px) {
-
     }
