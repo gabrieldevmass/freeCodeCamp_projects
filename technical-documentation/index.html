@@ -1,95 +1,220 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <title>Technical Documentation</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-</head>
-<body>
-  <main>
-    <aside>
-      <header>
-        <h1>Lorem ipsum</h1>
-      </header>
+  <head>
+    <meta charset="utf-8" />
+    <title>Technical Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <main id="main-doc">
+      <aside>
+        <nav id="navbar">
+          <header>
+            <h1>Lorem ipsum</h1>
+          </header>
+
+          <a href="#Introduction" class="nav-link">Introduction</a><br/>
+          <a href="#How_to_get_started" class="nav-link">How to get started</a><br/>
+          <a href="#Basics" class="nav-link">Basics</a><br/>
+          <a href="#Variables" class="nav-link">Variables</a><br/>
+          <a href="#Functions" class="nav-link">Functions</a><br/>
+          <a href="#Loops_and_statements" class="nav-link">Loops and statements</a><br/>
+          <a href="#Good_practices" class="nav-link">Good practices</a><br/>
+          <a href="#Conclusion" class="nav-link">Conclusion</a><br/>
+        </nav>
+      </aside>
       
-      <nav>
-        <ul>
-          <li>Lorem ipsum</li>
-          <li>Lorem ipsum</li>
-          <li>Lorem ipsum</li>
-          <li>Lorem ipsum</li>
-          <li>Lorem ipsum</li>
-        </ul>
-      </nav>
-    </aside>
-    
-    <article>
-      <section>
-        <h1>Lorem ipsum Dolor sit amet</h1>
-        <p>
-          Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
-          Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
-          Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
-          tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
-          Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
-          frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
-          buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
-        </p>
-      </section>
+      <article>
+        <section class="main-section" id="Introduction">
+          <header>
+            <h1>Introduction</h1>
+          </header>
 
-      <section>
-        <h1>Lorem ipsum Dolor sit amet</h1>
-        <p>
-          Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
-          Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
-          Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
-          tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
-          Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
-          frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
-          buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
-        </p>     
-      </section>
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+          <code>
+              scanf("%c", &myname); <br/>
+              printf("Your name is: %c", myname);
+          </code>
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+          <code>
+            scanf("%c", &myname); <br/>
+            printf("Your name is: %c", myname);
+          </code>
+        </section>
 
-      <section>
-        <h1>Lorem ipsum Dolor sit amet</h1>
-        <p>
-          Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
-          Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
-          Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
-          tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
-          Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
-          frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
-          buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
-        </p>
-      </section>
+        <section class="main-section" id="How_to_get_started">
+          <header>
+            <h1>How to get started</h1>
+          </header>
 
-      <section>
-        <h1>Lorem ipsum Dolor sit amet</h1>
-        <p>
-          Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
-          Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
-          Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
-          tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
-          Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
-          frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
-          buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
-        </p>
-      </section>
-      
-      <section>
-        <h1>Lorem ipsum Dolor sit amet</h1>
-        <p>
-          Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
-          Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
-          Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
-          tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
-          Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
-          frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
-          buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
-        </p>
-      </section>
-    </article>
-  </main>
-</body>
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>    
+          <ul>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+          </ul> 
+        </section>
+
+        <section class="main-section" id="Basics">
+          <header>
+            <h1>Basics</h1>
+          </header>
+
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+          <code>
+            scanf("%c", &myname); <br/>
+            printf("Your name is: %c", myname);
+          </code>
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+          <ul>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+            <li>Lorem Ipsum</li>
+          </ul>
+        </section>
+
+        <section class="main-section" id="Variables">
+          <header>
+            <h1>Variables</h1>
+          </header>
+
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+          <code>
+            scanf("%c", &myname); <br/>
+            printf("Your name is: %c", myname);
+          </code>
+          <ul>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+          </ul>
+        </section>
+        
+        <section class="main-section" id="Functions">
+          <header>
+            <h1>Functions</h1>
+          </header>
+
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+          <code>
+            scanf("%c", &myname); <br/>
+            printf("Your name is: %c", myname);
+          </code>
+        </section>
+
+        <section class="main-section" id="Loops_and_statements">
+          <header>
+            <h1>Loops and statements</h1>
+          </header>
+
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+          <code>
+            scanf("%c", &myname); <br/>
+            printf("Your name is: %c", myname);
+          </code>
+        </section>
+
+        <section class="main-section" id="Good_practices">
+          <header>
+            <h1>Good practices</h1>
+          </header>
+
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+        </section>
+
+        <section class="main-section" id="Conclusion">
+          <header>
+            <h1>Conclusion</h1>
+          </header>
+
+          <p>
+            Bacon ipsum dolor amet shank spare ribs andouille sirloin jowl beef ribs filet mignon.
+            Fatback pork ham hock, sausage pancetta turkey venison ball tip drumstick cow boudin strip steak frankfurter shoulder tenderloin.
+            Cupim brisket beef ribs hamburger capicola meatball swine prosciutto pancetta meatloaf pastrami bacon
+            tongue. Filet mignon strip steak turducken tri-tip pork pastrami shank boudin. 
+            Ham hock hamburger pastrami kevin meatball pork burgdoggen shankle filet mignon ribeye
+            frankfurter tenderloin andouille turkey beef ribs. Turkey picanha pork belly porchetta swine,
+            buffalo prosciutto kielbasa jowl. Beef ribs tongue tenderloin short loin venison cow biltong filetmignon.
+          </p>
+        </section>
+      </article>
+    </main>
+  </body>
 </html>
