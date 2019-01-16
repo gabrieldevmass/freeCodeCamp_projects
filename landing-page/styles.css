@@ -145,11 +145,18 @@
         color: #D5A253;
     }
     @media screen and (min-width: 680px) {
+        #nav-bar {
+            height: 6vh;
+        }
+        #nav-bar > h1 {
+            margin-left: 70px;
+            flex-grow: 10;
+        }
         #landing {
             background-image: url(https://source.unsplash.com/h9Iq22JJlGk/2440x1080);
         }
         #header-img {
-            margin-top: 220px;
+            margin-top: 180px;
             margin-bottom: 0px;
         }
         #products {
