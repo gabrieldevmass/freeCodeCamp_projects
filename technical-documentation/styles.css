@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
     margin: 0px;
     padding: 0px;
@@ -5,12 +7,47 @@
 main {
     display: flex;
 }
-article { 
-    background-color: aquamarine;
-    width: 50%;
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+a > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    color: #05386b;
+    margin-top: 10px;
+}
+header > h1 {
+    font-size: 3em;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    color: #05386b;
+    margin-top: 25px;
 }
 aside {
+    width: 320px;
+    height: auto;
+    min-width: 225px;
+    display: flex;
+    justify-content: center;
     border-right: 1px solid black;
+    background-color: #5cdb95;
+}
+nav {
+    position: fixed;
     height: 100vh;
-    width: 50%;
+    width: 225px;
+}
+#navbar-title {
+    margin-bottom: 40px;
+}
+.nav-link {
+    text-decoration: none;
+}
+article { 
+    background-color: #edf5e1;
+    width: 100%;
+}
+section {
+    margin: 0px 40px;
 }
