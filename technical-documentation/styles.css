@@ -5,10 +5,12 @@
 main {
     display: flex;
 }
-article {    
+article { 
+    background-color: aquamarine;
+    width: 50%;
 }
 aside {
     border-right: 1px solid black;
     height: 100vh;
-    width: 850px;
+    width: 50%;
 }
