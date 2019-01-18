@@ -51,3 +51,16 @@ article {
 section {
     margin: 0px 40px;
 }
+section > p {
+    margin: 15px 0px;
+}
+code {
+    color: #379683;
+    margin-left: 20px;
+}
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    list-style-position: inside;
+    margin: 20px 0px;
+}
