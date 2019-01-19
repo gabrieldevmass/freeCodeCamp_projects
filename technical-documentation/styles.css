@@ -64,3 +64,33 @@ ul {
     list-style-position: inside;
     margin: 20px 0px;
 }
+@media screen and (max-width: 768px) {
+    main {
+        display: block;
+    }
+    nav {
+        position: static;
+        height: 60px;
+        width: auto;
+        margin: 0px;
+    }
+    aside {
+        position: fixed;
+        display: block;
+        width: 100vw;
+        border: none;
+        height: 80px;
+        margin-top: -80px;
+    }
+    .nav-link {
+        display: none;
+    }
+    #navbar-title {
+        margin: 0px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    article {
+        margin-top: 80px;
+    }
+}
