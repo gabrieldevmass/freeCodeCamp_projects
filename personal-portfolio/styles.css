@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.project-tile {
+    width: 240px;
+    height: 381px;
+}
+#tribute-tile {
+    background-image: url(imgs/tribute-ptile.png);
+}
+#form-tile {
+    background-image: url(imgs/form-ptile.png);
+}
+#doc-tile {
+    background-image: url(imgs/doc-ptile.png);
+}
